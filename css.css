@@ -1,0 +1,663 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+#wrapper{
+	width:1920px;
+/*	background-color: #CC8385;*/
+}
+.header{
+	height:960px;
+	width:1920px;
+	background:url("hinh/Hinh Trang chu.jpg")
+}
+.h1{
+	height:140px;
+	width:1920px;
+/*	background-color: #747474;*/
+}
+.h1-logo{
+	width:80px;
+	height:80px;
+/*	background-color: brown;*/
+	float:left;
+	margin-left:200px;
+	margin-top:30px
+}
+.h1-menu{
+	width:1000px;
+	height:50px;
+/*	background-color: brown;*/
+	float:right;
+	margin-top:45px;
+	margin-right:200px;
+	font-size:16px;
+	font-weight: 600
+}
+.h1-menu ul{
+    list-style: none; 
+    text-align: right;
+}
+.h1-menu li{
+	color: #f1f1f1; 
+	display: inline-block;
+	line-height: 50px; 
+	margin-left: 30px;
+	padding-right: 10px;
+	text-align: center;
+}
+.h1-menu a {
+	text-decoration: none; 
+	color: #4f1c06;
+	display: block; 
+} 
+.h1-menu a:hover { 
+	font-weight: 700;
+	color:white; 
+}
+.h2{
+	height:680px;
+	width: 1920px;
+}
+.h3{
+	height:140px;
+	width:1920px;
+/*	background-color: antiquewhite;*/
+}
+.h3-scroll-down-icon{
+	width:30px;
+	height:30px;
+/*	background-color: brown;*/
+	float:left;
+	margin:55px auto auto 200px;
+}
+.h3-scroll-down{
+	width:120px;
+	height:50px;
+/*	background-color: brown;*/
+	float:left;
+	margin-top:45px;
+	text-align: center;
+	line-height: 50px;
+	font-size:16px;
+	font-weight: 600;
+	color:#4f1c06
+}
+.h3-icon-social{
+	width:140px;
+	height:30px;
+/*	background-color: brown;*/
+	float:right;
+	margin:45px 200px;
+}
+.h3-icon-social-fb{
+	width:30px;
+	height:30px;
+/*	background-color: burlywood;*/
+	float:left;
+}
+.h3-icon-social-in{
+	width:30px;
+	height:30px;
+/*	background-color: burlywood;*/
+	float:left;
+	margin-left:25px;
+	margin-right:25px;
+/*	border-radius: 50%*/
+}
+.h3-icon-social-be{
+	width:30px;
+	height:30px;
+/*	background-color: burlywood;*/
+	float:left;
+/*	border-radius: 50%*/
+}
+.body{
+	height:2880px;
+/*	background-color: #747474;*/
+}
+.b1{
+	height:960px;
+}
+.b1-blank-top{
+	height:80px;
+/*	background-color: aqua;*/
+}
+.b1-ct{
+	height:800px;
+/*	background-color: #CFCFCF;*/
+}
+.b1-ct-lon-wrapper{
+	width:740px;
+	height:800px;
+/*	background-color: antiquewhite;*/
+	margin-left:200px;
+	float:left;
+}
+.b1-ct-wrapper{
+	height:400px;
+/*	background-color: chartreuse;*/
+	margin-top:200px;
+}
+.b1-ct-heading{
+	height:140px;
+/*	background-color: brown;*/
+	font-size:50px;
+	font-weight: 600;
+	line-height: 65px;
+}
+.b1-ct-bodytext{
+	height:110px;
+	width:400px;
+/*	background-color: cornsilk;*/
+	margin-top:30px;
+	font-size:16px;
+	font-weight: 300;
+	line-height: 30px;
+	color:#202020
+}
+.b1-ct-button{
+	width:120px;
+	height:50px;
+/*	background-color: cornsilk;*/
+	margin-top:60px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size:16px;
+	color:white;
+	font-weight:600;
+	background-color: #8e5431;
+}
+.b1-ct-button:hover{
+	color:white;
+	background-color: #c98860;
+}
+.b1-avatar{
+	width:500px;
+	height:800px;
+/*	background-color: bisque;*/
+	float:left;
+}
+.b1-avatar-lon{
+	width:500px;
+	height: 500px;
+/*	background-color: burlywood;*/
+	margin-top:150px;
+	background:url("hinh/avatar.png");
+	background-repeat: no-repeat;
+
+}
+.b1-avatar-nho{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	background-color: #e9d9c5;
+	float:left;
+	margin-top:470px;
+	margin-left:-10px;
+	box-shadow: 10px 20px #8e5431;
+}
+.b1-typo-signer{
+	width:480px;
+	height:880px;
+/*	background-color: #D1D1D1;*/
+	float:right;
+}
+.b1-typo-signer-hinhnho{
+	width:80px;
+	height:80px;
+	background-color: #8e5431;
+	border-radius: 50px;
+	margin-top:120px;
+	float:left;
+	box-shadow: 20px 10px #e9d9c5;
+}
+.b1-typo-signer-stroke{
+	width:450px;
+	height:150px;
+/*	background-color: antiquewhite;*/
+	margin-top:380px;
+	margin-left:14px;
+	float:left;
+	transform: rotate(-90deg);
+	font-size:60px;
+/*	tạo stroke*/
+	color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color:#8e5431;
+}
+.b1-blank-bottom{
+	width:1440px;
+	height:80px;
+/*	background-color: aqua;*/
+	float:left;
+}
+		/*body 1*/
+.b2{
+	height:960px;
+	background-color: #e9d9c5
+}
+.b2-blank-top{
+	width:1280px;
+	height:80px;
+/*	background-color: cadetblue;*/
+}
+.b2-ct-nd{
+	width:640px;
+	height:880px;
+/*	background-color: antiquewhite;*/
+	float:right
+}
+.b2-ct-nd-stroke{
+	width:180px;
+	height:150px;
+	transform: rotate(-90deg);
+/*	background-color: aqua;*/
+	margin-left:310px;
+	margin-top:20px;
+	text-align: right;
+	font-size:60px;
+/*	tạo stroke*/
+	color: black;
+  -webkit-text-fill-color: #e9d9c5;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #8e5431;
+}
+.b2-ct-nd-heading{
+	width:440px;
+	height:70px;
+/*	background-color: aqua;*/
+	margin-top:180px;
+	font-size:50px;
+	font-weight: 600;
+	line-height: 75px
+}
+.b2-ct-nd-text{
+	width: 430px;
+	height:140px;
+/*	background-color: aqua;*/
+	margin-top:50px;
+	font-size:16px;
+	font-weight: 300;
+	line-height: 30px;
+	color:#202020;
+		
+}
+.b2-ct-nd-button{
+	width: 120px;
+	height: 50px;
+	margin-top:50px;
+	border-radius: 50px;
+/*	border: 1px solid black;*/
+	text-align: center;
+	line-height: 50px;
+	font-size:16px;
+	font-weight: 600;
+	color:white;
+	background-color: #8e5431;
+}
+.b2-ct-nd-button:hover{
+	color:white;
+	background-color: #c98860;
+}
+.b2-ct-wrapper{
+	width:1920;
+	height:800px;
+/*	background-color:antiquewhite;*/
+	margin-left:200px;
+	float:left;
+}
+.b2-hinh{
+	width:800px;
+	height:800px;
+/*	background-color: burlywood;*/
+}
+.b2-hinh-tren{
+	width:800px;
+	height:300px;
+/*	background-color: aqua;*/
+	margin-top:60px
+}
+.b2-hinh-tren-typo{
+	width:450px;
+	height:250px;
+/*	background-color: brown;*/
+	float:left;
+	margin-top:110px;
+	text-align: right;
+	font-size:50px;
+	line-height: 100px;
+	/*	tạo stroke*/
+	color: black;
+  -webkit-text-fill-color: #e9d9c5;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #8e5431;
+}
+.b2-hinh-tren-photo{
+	width:300px;
+	height:300px;
+	background-color: cadetblue;
+	margin-left:500px;
+	background: url("hinh/port1.jpg");
+	border-radius: 30px;
+	box-shadow: 10px 10px #8e5431;
+}
+.b2-hinh-duoi{
+	width:800px;
+	height:300px;
+/*	background-color: aqua;*/
+	margin-top:80px;
+}
+.b2-hinh-duoi-typo{
+	width:450px;
+	height:250px;
+/*	background-color: brown;*/
+	float:left;
+	margin-top:110px;
+	margin-left:350px;
+	text-align: left;
+	font-size:50px;
+	line-height: 100px;
+		/*	tạo stroke*/
+	color: black;
+  -webkit-text-fill-color: #e9d9c5;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #8e5431;
+}
+.b2-hinh-duoi-photo{
+	width:300px;
+	height:300px;
+	background-color: cadetblue;
+	background: url("hinh/port2.jpg");
+	margin-left:0px;
+	border-radius: 30px;
+	box-shadow: 10px 10px #8e5431;
+}
+.b2-ct-blank{
+	width:280px;
+	height:800px;
+	background-color: darkgoldenrod;
+}
+.b2-blank-bottom{
+	width:1920px;
+	height:80px;
+/*	background-color: cadetblue;*/
+	clear:both;
+}
+		/*body 2*/
+.b3{
+	height:960px;
+/*	background-color: antiquewhite;*/
+}
+.b3-blank{
+	height:100px;
+/*	background-color: aqua;*/
+}
+.b3-ct{
+	height:760px;
+	
+}
+.b3-ct-headline{
+	height:70px;
+	width:1520px;
+	margin-left:200px;
+	font-size:50px;
+	font-weight: 600;
+	line-height: 65px
+/*	background-color: burlywood;*/
+}
+.b3-ct-blank1{
+	height:60px;
+	width:1520px;
+	margin-left:200px;
+/*	background-color: cadetblue;*/
+}
+.b3-ct-thumbnail{
+	height:290px;
+	width:1640px;
+	margin-left:200px;
+	
+/*	background-color: burlywood;*/
+}
+.b3-ct-thumbnail-box{
+	height:290px;
+	width:290px;
+	margin-right:120px;
+	float:left;
+	background-color: antiquewhite;
+/*	border-radius: 40px;*/
+	box-shadow: 10px 10px #8e5431;
+}
+.b3-ct-blank2{
+	height:60px;
+	width:1520px;
+	margin-left:200px;
+/*	background-color: cadetblue;*/
+}
+.b3-ct-title{
+	height:60px;
+	width:1640px;
+	margin-left:200px;
+/*	background-color: burlywood;*/
+}
+.b3-ct-title-box{
+	height:60px;
+	width:290px;
+	margin-right:120px;
+/*	background-color: antiquewhite;*/
+	float: left;
+	text-align: center;
+	font-size:16px;
+	font-weight: 600;
+	line-height: 30px;
+	color:#202020;
+}
+.b3-ct-button1{
+	height:50px;
+	width:1640px;
+	margin-left:200px;
+/*	background-color: brown;*/
+}
+.b3-ct-button1-wrapper{
+	height:50px;
+	width:290px;
+	margin-right:120px;
+/*	background-color: antiquewhite;*/
+	float: left;
+}
+.b3-ct-button1-box{
+	height:50px;
+	width:120px;
+	margin:auto;
+/*	background-color: cadetblue;*/
+	border-radius: 50px;
+	border: 2px solid #8e5431;
+	text-align: center;
+	line-height: 50px
+}
+.b3-ct-button2{
+	height:50px;
+	width:1520px;
+	margin-left:200px;
+/*	background-color: brown;*/
+}
+.b3-ct-button2-box{
+	height:50px;
+	width:120px;
+	margin:auto;
+	background-color:#8e5431;
+	border-radius: 50px;
+/*	border: 1px solid black;*/
+	text-align: center;
+	line-height: 50px;
+	color:white;
+	font-weight: 500;
+}
+.b3-ct-button2-box:hover{
+	color:white;
+	background-color: #c98860;
+}
+.footer{
+	height:600px;
+/*	background-color:#e9d9c5;*/
+}
+.f-hinh{
+	height:190px;
+	width:1920px;
+/*	background-color: antiquewhite;*/
+/*	margin-top:150px;*/
+	float:left;
+}
+.f-ct-wrapper{
+	height:410px;
+	width:1920px;
+/*	background-color: aqua;*/
+/*	margin-top:550px;*/
+	float:left;
+	background-color:#e9d9c5;
+}
+.f-ct-blank{
+	height:80px;
+/*	background-color: brown;*/
+}
+.f-ct-1{
+	height:160px;
+/*	background-color: burlywood;*/
+	width:1520px;
+	margin-left: 200px;
+	font-size:16px;
+	font-weight: 300;
+}
+
+/* định dạng cho menu - trang chủ*/
+.f-ct-1-trangchu ul{
+	list-style: none;
+	width: 170px;
+	margin: 0;
+	padding: 0;
+}
+.f-ct-1-trangchu ul li{
+    height: 40px;
+	line-height: 40px;
+}
+.f-ct-1-trangchu a{
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+.f-ct-1-trangchu a:hover{
+/*	background-color:#8e5431;*/
+	color: #8e5431;
+	font-weight: 600
+}
+/* định dạng cho menu - trang chủ*/
+
+/* định dạng cho menu - dự án*/
+.f-ct-1-du-an ul{
+	list-style: none;
+	width: 250px;
+	margin: 0;
+	padding: 0;
+}
+.f-ct-1-du-an ul li{
+    height: 40px;
+	line-height: 40px;
+}
+.f-ct-1-du-an a{
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+.f-ct-1-du-an a:hover{
+/*	background-color:#c98860;*/
+	color: #8e5431;
+	font-weight: 600
+}
+/* định dạng cho menu - dự án*/
+
+
+.f-ct-1-trangchu{
+	width:170px;
+	height:160px;
+/*	background-color: aqua;*/
+	float:left;
+	margin-right: 48px;
+}
+.f-ct-1-du-an{
+	width:250px;
+	height:160px;
+/*	background-color: aqua;*/
+	float:left;
+	margin-right:48px;
+}
+.f-ct-1-dangki{
+	width:270px;
+	height:160px;
+/*	background-color: aqua;*/
+	float:left;
+}
+.f-ct-1-headline{
+	height:40px;
+	line-height: 40px;
+	text-align: center
+}
+.f-ct-1-email{
+	height:40px;
+	line-height: 40px;
+	border:2px solid #8e5431;
+	margin-top:10px;
+	text-align: center;
+	border-radius: 20px
+}
+.f-ct-1-gui{
+	height:40px;
+	line-height: 40px;
+	background-color:#8e5431;
+	margin-top:10px;
+	text-align: center;
+	border-radius: 20px;
+	font-weight:500;
+	color:white;
+}
+.f-ct-1-gui:hover{
+	color:white;
+	background-color: #c98860;
+}
+.f-ct-hr{
+	width:1520px;
+	margin-left:200px
+/*	background-color: aqua;*/
+}
+.f-ct-2{
+	height:80px;
+/*	background-color: antiquewhite;*/
+}
+.f-ct-2-copyright{
+	width:500px;
+	height:80px;
+/*	background-color: aqua;*/
+	float:left;
+	margin-left: 200px;
+	line-height: 80px;
+	font-size:16px;
+	font-weight: 300;
+}
+.f-ct-2-icon{
+	width:225px;
+	height:30px;
+/*	background-color: aqua;*/
+	float:right;
+	margin-top:25px;
+	margin-right:200px;
+}
+.f-ct-2-icon-box{
+	width:30px;
+	height:30px;
+	margin-left:25px;
+/*	background-color: cadetblue;*/
+	float:right;
+}
